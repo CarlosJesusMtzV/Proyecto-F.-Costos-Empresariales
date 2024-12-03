@@ -18,5 +18,7 @@ namespace Proyecto_F._Costos_Empresariales
         public static double VolumenTerminado { get; set; }
 
         public static double TotalInvFinal { get; set; }
+        public static double TotalProduccionTerminada { get; set; }
+
     }
 }

@@ -30,11 +30,17 @@ namespace Proyecto_F._Costos_Empresariales
 
 
         }
-
+        private void btnCédula2_Click(object sender, EventArgs e)
+        {
+            Cedula2 formCedula2 = new Cedula2();
+            formCedula2.Show();
+        }
         private void btnCédula3_Click(object sender, EventArgs e)
         {
             Cedula3 formCedula3 = new Cedula3();
             formCedula3.Show();
         }
+
+       
     }
 }

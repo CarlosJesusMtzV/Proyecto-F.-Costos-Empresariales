@@ -242,6 +242,7 @@
             btnCédula2.TabIndex = 19;
             btnCédula2.Text = "Cédula 2";
             btnCédula2.UseVisualStyleBackColor = false;
+            btnCédula2.Click += btnCédula2_Click;
             // 
             // btnCédula3
             // 
